@@ -1,10 +1,10 @@
-//package com.vuhien.application.controller.shop;
+//package com.giangviet.application.controller.shop;
 //
-//import com.vuhien.application.entity.Rate;
-//import com.vuhien.application.entity.User;
-//import com.vuhien.application.model.request.CreateRateProductRequest;
-//import com.vuhien.application.security.CustomUserDetails;
-//import com.vuhien.application.service.RateService;
+//import com.giangviet.application.entity.Rate;
+//import com.giangviet.application.entity.User;
+//import com.giangviet.application.model.request.CreateRateProductRequest;
+//import com.giangviet.application.security.CustomUserDetails;
+//import com.giangviet.application.service.RateService;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.http.ResponseEntity;
 //import org.springframework.security.core.context.SecurityContextHolder;
