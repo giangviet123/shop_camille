@@ -119,7 +119,8 @@
                         </div><!-- End .product-container -->
                         <div class="product-action">
                             <a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
-                            <button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal">Mua hàng</button>
+                            <!-- <button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal">Mua hàng</button> -->
+                            <a th:href="@{/{slug}/{id}(id=${newProduct.id},slug=${newProduct.slug})}"><button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal">Mua hàng</button></a>
                             <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div><!-- End .product-details -->
